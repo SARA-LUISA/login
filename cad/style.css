@@ -1,0 +1,40 @@
+ 
+ h1{
+    padding: 30px;
+    text-align: center;
+    color: blue;
+ }   
+  h3{
+    text-align: center;
+ } 
+input{
+    /* Estiliza os campos de entrada */
+    padding: 10px;/* Adiciona um pouco de espaço interno para tornar
+     os campos mais confortáveis de usar */
+    border-radius: 8px;/* Bordas arredondadas para um visual mais suave */
+    border: 1px solid #ccc;/* Borda cinza clara para os campos de entrada */
+    font-size: 14px;/* Define um tamanho de fonte legível para os campos de entrada */
+}
+ 
+body{
+    /* Centraliza o conteúdo na tela */
+    margin: 0;/* Remove a margem padrão do navegador */
+    height: 100vh;/* Define a altura da tela para 100% da altura da janela de visualização */
+    display: flex;
+    justify-content: center; /* centraliza na horizontal */
+    align-items: center;     /* centraliza na vertical */
+    background: linear-gradient(to right, #4a90e2, #9013fe);/* Fundo com um gradiente de azul para roxo */
+    font-family: Arial, sans-serif;/* Define uma fonte limpa e moderna para o texto */
+}
+
+#cadastro{
+    /* Estiliza o formulário de cadastro*/
+    background-color: white;
+    padding: 40px;  /* Adiciona um pouco de espaço interno*/
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+    display: flex;/* Usa flexbox para organizar os elementos dentro do formulário */
+    flex-direction: column;/* Organiza os elementos em coluna */
+    gap: 15px;/* Adiciona um espaço entre os elementos */
+    width: 300px;/* Define uma largura fixa para o formulário */
+}
